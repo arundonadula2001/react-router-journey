@@ -1,0 +1,56 @@
+.van-detail-container {
+    padding: 40px 25px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.van-detail-container img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.van-detail-container h2 {
+    font-size: 32px;
+    margin: 20px 0 10px;
+    color: #161616;
+}
+
+.van-detail-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.van-detail-container p:nth-of-type(1) {
+    font-size: 22px;
+    font-weight: bold;
+    color: #161616;
+}
+
+.van-detail-container span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.van-detail-type {
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+.van-detail-type.simple {
+    background-color: #e17654;
+}
+
+.van-detail-type.rugged {
+    background-color: #115e59;
+}
+
+.van-detail-type.luxury {
+    background-color: #161616;
+}

@@ -2,7 +2,7 @@ VanLife About Page
 
 This project is a simple About Page built using React and React Router for a VanLife travel rental website.
 
-Currently, two official plugins are available:
+The page introduces the mission of the company, displays a hero image, and provides navigation to explore available vans.
 
 Features
 React functional component

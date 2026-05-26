@@ -26,8 +26,14 @@ body {
   background-color:#FFF7ED ;
 
 }
-.nav a:first-child {
+.nav .Logo {
   font-size: 26px;
   font-weight: 900;
   letter-spacing: 1px;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
