@@ -1,0 +1,39 @@
+* {
+    background-color: #FFF7ED;
+}
+.about-page-container img {
+    width: 100%;
+}
+.about-page-container h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    background-color: #FFF7ED;
+}
+.about-page-container p {
+    
+    margin: 20px 0;
+    background-color: #FFF7ED;
+}
+.about-page-content {
+    padding: 20px;
+    background-color: #FFF7ED;
+}
+.about-page-cta {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.about-page-cta h2 {
+    background-color: bisque;
+}
+.about-page-cta a {
+    margin-top: 20px;
+    padding: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:black;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}

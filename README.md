@@ -1,16 +1,78 @@
-# React + Vite
+VanLife About Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple About Page built using React and React Router for a VanLife travel rental website.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
+React functional component
+React Router navigation using Link
+Hero image section
+Clean content layout
+Call-to-action section
+Separate CSS styling file
+Technologies Used
+React
+React Router DOM
+CSS3
+Vite
+Project Structure
+src/
+│
+├── assets/
+│   └── images/
+│       └── about-hero.png
+│
+├── components/
+│   └── About.jsx
+│
+├── styles/
+│   └── About.css
+About Component
 
-## React Compiler
+The component includes:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A hero image
+Company mission statement
+Information about the vanlife community
+CTA section with navigation button
+Code Overview
+Import Statements
+import { Link } from "react-router-dom";
+import aboutHero from "../assets/images/about-hero.png";
+import "./About.css";
+Navigation
 
-## Expanding the ESLint configuration
+Uses React Router's Link component for client-side routing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<Link className="link-button" to="/vans">
+    Explore our vans
+</Link>
+Installation
+Clone the repository
+git clone <your-repo-url>
+Navigate to the project folder
+cd project-name
+Install dependencies
+npm install
+Start the development server
+npm run dev
+Learning Goals
+
+This project helps practice:
+
+React component structure
+React Router navigation
+Importing images in React
+CSS styling
+Layout design
+Future Improvements
+Add responsive design
+Add animations
+Create Vans listing page
+Add dynamic routing
+Connect backend APIs
+Author
+
+DONADULA ARUN
+Java Full Stack Developer
