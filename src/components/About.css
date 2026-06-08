@@ -35,3 +35,20 @@
     color: white;
     text-decoration: none;
 }
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-wrapper main {
+  flex: 1;
+}

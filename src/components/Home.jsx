@@ -7,11 +7,11 @@ function Home () {
             <img src={homeHero} alt="home-hero-image" />
         
         <h1>You got the travel plans, we got the travel van!</h1>
-        <p>Add adventures to your life by jining the #vanlife movement. </p>
+        <p>Add adventures to your life by joining the #vanlife movement. </p>
         <p>Rent the perfect van for your next adventure!</p>
         <button>Find Your Van</button>
         </div>
         
     )
-}
+} 
 export default Home;
